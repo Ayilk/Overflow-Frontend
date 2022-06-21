@@ -82,7 +82,7 @@ export default function DetailsComponent({
     axios
       .post(
         //`http://localhost:3001/comments/${question.id}/${user.id}`, // DESACTIVAR PARA DEPLOY
-        `https://henry-overflow-api.herokuapp.com/comments/${question.id}/${user.id}`, // ACTIVAR PARA DEPLOY
+        `https://henry-flow.herokuapp.com/comments/${question.id}/${user.id}`, // ACTIVAR PARA DEPLOY
         {
           message: comentarioText.trim(),
         },
