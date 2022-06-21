@@ -12,7 +12,7 @@ const ButtonWrapper = ({ type }) => {
   const [{ options }, dispatch] = usePayPalScriptReducer();
   const user = useSelector((state) => state.userReducer.user);
   //const URL = `http://localhost:3001`; // DESACTIVAR PARA DEPLPOY
-  const URL = `https://henry-overflow-api.herokuapp.com`; // ACTIVAR PARA DEPLOY
+  const URL = `https://henry-flow.herokuapp.com`; // ACTIVAR PARA DEPLOY
 
   useEffect(() => {
     setTimeout(() => {
